@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLiff } from "react-liff";
 import "./style.css";
-import ListItem from "./ListItem.js";
 import FirstPage from "./FirstPage.js";
 import SecondPage from "./SecondPage.js";
 import AddMemberPage from "./addMemberpage.js";

@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Sheet from "react-modal-sheet";
 import styled from "styled-components";
 import axios from "axios";
-import React, { useState, useEffect, useRef, createRef } from "react";
+import { useState, useEffect, useRef, createRef } from "react";
 const ListItem = ({ passedData, passToParent }) => {
   const location = useLocation();
   const groupId = location.state.groupId;

@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { LiffProvider } from "react-liff";
 
 import "./style.css";
-import App from "./App";
 import CreateBillPage from "./createbill/createBillPage.js";
 import SeperateBill from "./createbill/seperatebill/seperateBillPage";
 import AddAccountPage from "./createbill/addaccount/addAccountPage.js";

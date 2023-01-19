@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ListItem from "./listItem.js";
 import { Link } from "react-router-dom";
-import { useState, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const SeperateBill = () => {
   const location = useLocation();

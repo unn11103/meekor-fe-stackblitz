@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import PaymentNavbar from "./paymentNavbar.js";
 import AddBankAccount from "./addBankAccount.js";
 import AddPromptpayPage from "./addPromptpay.js";
 import { useLiff } from "react-liff";

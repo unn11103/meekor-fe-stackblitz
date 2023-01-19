@@ -1,5 +1,4 @@
 import React from 'react';
-import ListItem from './ListItem.js';
 import { Link, useNavigate } from "react-router-dom";
 
 const SummaryPage = () => {

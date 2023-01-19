@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@0.16.2": "*",
     "@liff/is-api-available": "^2.21.2",
     "@line/liff": "^2.21.2",
     "axios": "0.27.2",
+    "daisyui": "^2.47.0",
     "framer-motion": "^7.6.3",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -25,7 +25,20 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "prettier": "2.7.1",
     "react-scripts": "latest",
-    "prettier": "2.7.1"
+    "tailwindcss": "^3.2.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

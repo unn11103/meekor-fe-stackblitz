@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import PaymentNavbar from "./paymentNavbar.js";
 import { useLiff } from "react-liff";
 
 const AddPromptpayPage = ({ handlechange, accountname, accountnumber }) => {
