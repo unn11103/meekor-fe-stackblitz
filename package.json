@@ -1,0 +1,31 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@0.16.2": "*",
+    "@liff/is-api-available": "^2.21.2",
+    "@line/liff": "^2.21.2",
+    "axios": "0.27.2",
+    "framer-motion": "^7.6.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "react-liff": "^2.0.0",
+    "react-modal-sheet": "^1.8.1",
+    "react-router-dom": "^6.4.2",
+    "styled-components": "^5.3.6",
+    "tslib": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest",
+    "prettier": "2.7.1"
+  }
+}
